@@ -1,6 +1,11 @@
 body{
     margin:0;
-    background:#0f172a;
+    background:linear-gradient(
+135deg,
+#0f172a,
+#1e293b,
+#0f172a
+);
     color:white;
     text-align:center;
     font-family:Arial, sans-serif;
@@ -9,6 +14,16 @@ body{
 
 h1{
     font-size:60px;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow{
+    from{
+        text-shadow:0 0 10px #60a5fa;
+    }
+    to{
+        text-shadow:0 0 25px #60a5fa;
+    }
 }
 
 h2{
@@ -67,7 +82,9 @@ button{
 }
 
 .project-card{
-    background:#1e293b;
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.1);
     padding:25px;
     border-radius:15px;
     transition:0.3s;
@@ -126,7 +143,9 @@ button{
 }
 
 .cert-box{
-    background:#1e293b;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+border:1px solid rgba(255,255,255,0.1);;
     padding:25px;
     border-radius:15px;
     margin-bottom:25px;
@@ -170,7 +189,9 @@ button{
 }
 
 .stat-card{
-    background:#1e293b;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+border:1px solid rgba(255,255,255,0.1);;
     padding:30px;
     border-radius:15px;
     transition:0.3s;
@@ -247,7 +268,9 @@ button{
 .education-card{
     max-width:600px;
     margin:auto;
-    background:#1e293b;
+    background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+border:1px solid rgba(255,255,255,0.1);;
     padding:25px;
     border-radius:15px;
 }
@@ -259,7 +282,9 @@ button{
 .experience-card{
     max-width:700px;
     margin:auto;
-    background:#1e293b;
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.1);
     padding:25px;
     border-radius:15px;
 }
@@ -282,3 +307,42 @@ button{
 .project-card strong{
     color:#60a5fa;
 }
+.contact-buttons a:hover,
+button:hover{
+    box-shadow:0 0 25px #60a5fa;
+}
+.about,
+.projects,
+.skills,
+.education,
+.experience,
+.stats,
+.contact{
+    animation: fadeIn 1.2s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.hero{
+    animation: heroZoom 1.5s ease;
+}
+
+@keyframes heroZoom{
+    from{
+        opacity:0;
+        transform:scale(0.9);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+
