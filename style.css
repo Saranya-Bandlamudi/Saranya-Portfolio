@@ -238,3 +238,15 @@ button{
     border-radius:10px;
     margin-bottom:15px;
 }
+.education{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.education-card{
+    max-width:600px;
+    margin:auto;
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+}
