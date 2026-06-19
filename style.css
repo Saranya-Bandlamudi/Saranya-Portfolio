@@ -233,3 +233,8 @@ button{
 .footer a:hover{
     text-decoration:underline;
 }
+.project-card img{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:15px;
+}
