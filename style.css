@@ -63,7 +63,7 @@ button{
 .about p{
     font-size:20px;
     line-height:1.8;
-    color:#cbd5e1;
+    color:#eff1f3;
 }
 .projects{
     padding:80px 10%;
@@ -101,7 +101,7 @@ button{
 }
 
 .project-card p{
-    color:#cbd5e1;
+    color:#e2e5e9;
 }
 .skills{
     padding:80px 10%;
@@ -208,7 +208,7 @@ border:1px solid rgba(255,255,255,0.1);;
 }
 
 .stat-card p{
-    color:#cbd5e1;
+    color:#e7ebec;
 }
 .contact{
     padding:100px 10%;
