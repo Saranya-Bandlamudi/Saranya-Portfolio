@@ -368,10 +368,3 @@ button:hover{
 .github-btn:hover{
     background:#1d4ed8;
 }
-.about-content {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 1.8;
-    font-size: 18px;
-}
