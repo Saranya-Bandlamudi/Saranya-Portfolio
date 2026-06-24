@@ -368,3 +368,9 @@ button:hover{
 .github-btn:hover{
     background:#1d4ed8;
 }
+#about p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #d1d5db;
+    text-align: justify;
+}
