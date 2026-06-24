@@ -345,3 +345,11 @@ button:hover{
         transform:scale(1);
     }
 }
+.certificates a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.certificates a:hover {
+    color: #4da3ff;
+}
